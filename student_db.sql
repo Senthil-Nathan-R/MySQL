@@ -55,3 +55,4 @@ select * from payment;
 insert into payment(stdid,payment_amt,payment_pending) value(01,50000.0,0);
 alter table payment drop payment_date;
 alter table payment add payment_date timestamp default current_timestamp on update current_timestamp; 
+select*file student;
